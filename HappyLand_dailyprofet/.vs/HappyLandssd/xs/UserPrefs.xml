@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{955DB7DC-4378-9656-7168-2519F845EE76}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Library/PackageCache/com.unity.render-pipelines.universal@7.3.1/ShaderLibrary/UnityInput.hlsl">
+    <Files>
+      <File FileName="Assets/_Scripts/Heart.cs" Line="1" Column="1" />
+      <File FileName="Assets/_Scripts/Coin.cs" Line="1" Column="1" />
+      <File FileName="Library/PackageCache/com.unity.render-pipelines.universal@7.3.1/ShaderLibrary/UnityInput.hlsl" Line="126" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="HappyLandssd" expanded="True">
+            <Node name="Assets" expanded="True" selected="True">
+              <Node name="_Scripts" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d3778189-58b9-442c-83bc-db25ba88a534" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
