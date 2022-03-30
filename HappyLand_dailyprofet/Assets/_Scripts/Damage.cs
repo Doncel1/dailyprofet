@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Heart : MonoBehaviour
+public class Damage : MonoBehaviour
 {
     VidaPlayer playerVida;
 
@@ -17,18 +17,16 @@ public class Heart : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-       if (other.tag == "Player")
-       {
-           currentDamageTime += Time.deltaTime;
-           if (currentDamageTime > damageTime)
-           {
-               playerVida.vida += cantidad;
-               currentDamageTime = 0.0f;
-                Destroy(this.gameObject);
+        if (other.tag == "Player")
+        {
+            currentDamageTime += Time.deltaTime;
+            if (currentDamageTime > damageTime)
+            {
+                playerVida.vida += cantidad;
+                currentDamageTime = 0.0f;
+                
 
-           }
-       }
+            }
+        }
     }
-
-    
 }
