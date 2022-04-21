@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 498876}
   - component: {fileID: 3333614}
   - component: {fileID: 2374044}
+  - component: {fileID: 2067351085798819294}
   m_Layer: 0
   m_Name: Forest_Water
   m_TagString: Untagged
@@ -83,3 +84,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &2067351085798819294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 124698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fefa23edc3325674384953d870db5f73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cantidad: 20
+  damageTime: 1
