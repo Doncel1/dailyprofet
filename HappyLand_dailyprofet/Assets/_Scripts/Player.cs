@@ -9,7 +9,7 @@ public class Player : MonoBehaviour
     public float playerLife = 100; 
     
     [SerializeField]
-    private float _speed =3.5f;
+    public float _speed =3.5f;
     [SerializeField]
     private float _gravity = 9.81f;
     [SerializeField]
