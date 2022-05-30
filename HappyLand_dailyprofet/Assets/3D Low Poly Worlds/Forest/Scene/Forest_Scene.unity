@@ -14354,11 +14354,33 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 461648, guid: 4ffb6ee5d57b20743b80e4b0b1fcf5c2, type: 3}
   m_PrefabInstance: {fileID: 79592169}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &831286910 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b7ac6105ec1e442468d6d4a18fb33b92, type: 3}
+  m_PrefabInstance: {fileID: 374576234}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &831286911 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b7ac6105ec1e442468d6d4a18fb33b92, type: 3}
   m_PrefabInstance: {fileID: 374576234}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &831286913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 831286910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ee9dde70b4aa3749aacf460a38dd8ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rutina: 0
+  cronometro: 0
+  ani: {fileID: 0}
+  angulo: {x: 0, y: 0, z: 0, w: 0}
+  grado: 0
 --- !u!1001 &832360366
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32505,7 +32527,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: cdb9d271862354243b2487d18cdaae01, type: 3}
 --- !u!1001 &1803062631
