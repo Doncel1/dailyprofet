@@ -13,6 +13,7 @@ public class Damage : MonoBehaviour
     void Start()
     {
         playerVida = GameObject.FindWithTag("Player").GetComponent<VidaPlayer>();
+     
     }
 
     private void OnTriggerEnter(Collider other)
@@ -23,10 +24,15 @@ public class Damage : MonoBehaviour
             if (currentDamageTime > damageTime)
             {
                 playerVida.vida += cantidad;
-                currentDamageTime = 0.0f;
-                
+                currentDamageTime = 0.0f;               
 
             }
         }
+        
     }
+
+    
+
+
+
 }
