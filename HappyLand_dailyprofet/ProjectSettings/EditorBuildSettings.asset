@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/3D Low Poly Worlds/Forest/Scene/Forest_Scene.unity
     guid: a6f078be1ad32f34b913bcf0d86c0d1e
+  - enabled: 1
+    path: Assets/3D Low Poly Worlds/Forest/Scene/Game over.unity
+    guid: 32689c8b168a7474599a2a52b5de7b51
   m_configObjects: {}

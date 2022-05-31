@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class VidaPlayer : MonoBehaviour
 {
@@ -15,5 +16,17 @@ public class VidaPlayer : MonoBehaviour
 
         barraDeVida.fillAmount = vida / 100;
 
+       
+       
     }
+    void FixedUpdate()
+    {
+        if (vida <= 0)
+        {
+            SceneManager.LoadScene("Game Over");
+        }
+    }
+
+    
+
 }
