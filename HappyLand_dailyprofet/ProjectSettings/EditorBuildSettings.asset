@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/3D Low Poly Worlds/Forest/Scene/MenuPrincipal.unity
+    guid: 83ca59cc8f7e7394f840bd9d6137d04d
+  - enabled: 1
+    path: Assets/3D Low Poly Worlds/Forest/Scene/Forest_Scene.unity
+    guid: a6f078be1ad32f34b913bcf0d86c0d1e
   m_configObjects: {}
